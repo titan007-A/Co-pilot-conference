@@ -1,0 +1,6 @@
+/conference_copilot
+│
+├── ui.py             (The Face: Only handles CustomTkinter)
+├── audio_engine.py   (The Ear: Only handles SoundDevice & Whisper)
+├── llm_engine.py     (The Brain: Only handles the context buffer & Groq)
+└── main.py           (The Controller: Imports the other three and stitches them together)
