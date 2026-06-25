@@ -18,15 +18,18 @@ I built this using a clean MVC (Model-View-Controller) architecture to ensure th
    git clone [https://github.com/yourusername/copilot-engine.git](https://github.com/yourusername/copilot-engine.git)
    cd copilot-engine
 
-Install dependencies:
+**Install dependencies:**
+
     pip install customtkinter keyboard groq faster-whisper soundcard python-dotenv
 
-Environment Variables:
+**Environment Variables:**
 Create a .env file in the root directory and add your Groq API key:
+
     GROQ_API_KEY=gsk_your_api_key_here
 
-Usage
+**Usage**
 Run the controller script:
+
     python main.py
 
 
@@ -39,4 +42,4 @@ The Trigger: When asked a question, press Ctrl + Alt + Space anywhere on your co
 The Copilot will analyze the historical context of the meeting and instantly generate exactly 2 actionable, highly technical bullet points in the GUI for you to read out loud.
 
 👨‍💻 Author
-Built by Siddhant.
+**Built by Siddhant.**
