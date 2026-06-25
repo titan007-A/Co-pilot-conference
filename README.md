@@ -18,16 +18,16 @@ I built this using a clean MVC (Model-View-Controller) architecture to ensure th
    git clone [https://github.com/yourusername/copilot-engine.git](https://github.com/yourusername/copilot-engine.git)
    cd copilot-engine
 
-**Install dependencies:**
+2.**Install dependencies:**
 
     pip install customtkinter keyboard groq faster-whisper soundcard python-dotenv
 
-**Environment Variables:**
+3.**Environment Variables:**
 Create a .env file in the root directory and add your Groq API key:
 
     GROQ_API_KEY=gsk_your_api_key_here
 
-**Usage**
+4.**Usage**
 Run the controller script:
 
     python main.py
